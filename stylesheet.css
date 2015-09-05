@@ -1,0 +1,150 @@
+body {
+  font-family: "trebuchet MS", Tahoma, verdana;
+  width: 960px;
+  background-color: white;
+  color: black;
+	font-size: 16px;
+  margin: 10px 10px 10px 10px;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 0px;
+  font-size: 36px;
+ }
+
+ h1.bigger {
+  font-size: 48px;
+  margin-top: 25px;
+}
+
+h2 {
+  margin: 20px 10px 0 10px; 
+  padding-left: 10px;
+  width: 900px;
+  background-color: #00ff00;
+  background: linear-gradient(to bottom, #ffffff,#00d000);
+  border-bottom: 1px solid black;
+} 
+
+h3 {
+  margin-left: 10px;
+}
+
+h4 {
+  margin-top: -5px;
+  margin-left: 10px;
+}
+
+p.bigger {
+  font-size: 20px;
+}
+
+ul {
+  margin-top: 15px;
+}
+
+a {
+  transition: all 0.1s ease-in-out;
+}
+
+a:link {
+  color: red;
+  background-color: white;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: maroon;
+  background-color: #c0c0c0;
+  text-decoration: none;
+}
+
+
+.contact-block {
+  margin-top: 15px;
+  margin-left: 25px;
+  width: 890px;
+  height: 205px;
+  padding: 10px 10px 10px 10px;
+  position: relative;
+  background-color: #00ff00;
+  background: linear-gradient(to bottom, #ffffff,#00d000);
+  border-bottom: 1px solid black;
+}
+
+figure {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+img.grasshopper {
+  float: left;
+  height: 216px;
+  width: 288px;
+  margin-left: 15px;
+  margin-top: 15px;
+  border: 1px solid #000000;
+  box-shadow: 5px 5px 5px 5px #777777;
+}
+
+.contact-text {
+  float: left;
+  padding-left: 30px;
+}
+
+
+.blocks-left {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 25px;
+  width: 900px; 
+}
+
+.blocks-left p {
+  margin-top: 15px;
+}
+
+h2.profile {
+  margin-top: 50px;
+}
+
+.slight-right {
+  margin: 0px 0px 0px 10px;
+}
+
+.nudge-right {
+  margin-left: 10px;
+}
+
+.twocolumns-wrapper {
+  height: 100px;
+  width: 900px;
+  padding: 0px;
+  margin: 0px;  
+}
+
+.twocolumns {
+  width: 430px;
+  float: left;
+  margin: 0px;
+  padding: 10px;}
+
+.job-duties {
+  margin: 20px 10px 10px 10px;
+}
+
+.viewRez {
+  font-size: 24px;
+  text-align: center;
+  width: 280px;
+  height: 60px;
+  margin: 240px auto;
+  background-color: #00ff00;
+  background: linear-gradient(to bottom, #ffffff,#00d000);
+  border: 1px solid black;}
+
+  .highlighted {
+    background-color: #f0f0f0;
+    color: darkgreen;
+  }
