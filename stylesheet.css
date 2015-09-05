@@ -26,6 +26,7 @@ h2 {
   background-color: #00ff00;
   background: linear-gradient(to bottom, #ffffff,#00d000);
   border-bottom: 1px solid black;
+  cursor: pointer;
 } 
 
 h3 {
@@ -72,6 +73,7 @@ a:hover {
   background-color: #00ff00;
   background: linear-gradient(to bottom, #ffffff,#00d000);
   border-bottom: 1px solid black;
+  cursor: pointer;
 }
 
 figure {

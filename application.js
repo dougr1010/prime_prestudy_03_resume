@@ -2,6 +2,18 @@ $(document).ready(function(){
 	console.log('Yo, this thing on?');
 
 	$('#notTheButton').hide();
+
+	$('.profile').parent().find('p').slideToggle();
+		console.log('minimized profile');
+	$('.expertise').parent().find('div').slideToggle();
+		console.log('minimized expertise');
+	$('.experience').parent().find('div').slideToggle();
+		console.log('minimized experience');
+	$('.education').parent().find('ul').slideToggle();
+		console.log('minimized education');
+	$('.programming').parent().find('ul').slideToggle();
+		console.log('minimized programming');
+
 	$('.viewRez').on('click', function(){
 		$(this).remove();
 		$('#notTheButton').fadeIn(2000);
@@ -9,7 +21,7 @@ $(document).ready(function(){
 
 
 	$('.contact-block').on('click',function(){
-		alert('Yes, you want to hire Doug Ritzinger!')
+		alert('Yes, you want to hire Doug!')
 		console.log('found contact-block');
 	});
 
@@ -72,7 +84,6 @@ $(document).ready(function(){
 	});
 	$('.experience-block').on('mouseenter',function(){
 		$(this).parent().find('ul').addClass('highlighted');
-		$(this).parent().find('h2').addClass('highlighted');
 		$(this).parent().find('h3').addClass('highlighted');
 		$(this).parent().find('h4').addClass('highlighted');
 		console.log('found experience-block');
@@ -80,7 +91,6 @@ $(document).ready(function(){
 
 	$('.experience-block').on('mouseleave',function(){
 		$(this).parent().find('ul').removeClass('highlighted');
-		$(this).parent().find('h2').removeClass('highlighted');
 		$(this).parent().find('h3').removeClass('highlighted');
 		$(this).parent().find('h4').removeClass('highlighted');
 		console.log('found experience-block');
@@ -96,12 +106,12 @@ $(document).ready(function(){
 		console.log('found education');
 	});
 
-	$('.programming').on('mouseenter',function(){
+	$('.programming-block').on('mouseenter',function(){
 		$(this).parent().find('ul').addClass('highlighted');
 		console.log('found programming');
 	});
 
-	$('.programming').on('mouseleave',function(){
+	$('.programming-block').on('mouseleave',function(){
 		$(this).parent().find('ul').removeClass('highlighted');
 		console.log('found programming');
 	});
